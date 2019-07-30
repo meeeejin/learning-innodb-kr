@@ -2,7 +2,7 @@
 
 이 문서는 [On learning InnoDB: A journey to the core](https://blog.jcole.us/innodb/)를 한글 번역한 문서입니다. 이 문서는 개인적인 학습 및 사용을 목적으로, 원저자([Jeremy Cole](https://blog.jcole.us/))의 허가 하에 번역한 문서입니다.
 
->  본 문서는 개인적인 필요로 의해 번역한 문서로, 원문을 직역하다 보니 번역에 문제가 있을 수 있습니다. 본 문서보다 원문을 먼저 보시는 걸 권장합니다. 번역과 관련한 문제점 및 수정 제안은 언제든지 환영합니다.
+>  본 문서는 개인적인 필요로 의해 번역한 문서로, 원문을 직역 및 의역하다 보니 번역에 문제가 있을 수 있습니다. 본 문서보다 원문을 먼저 보시는 걸 권장합니다. 번역과 관련한 문제점 및 수정 제안은 언제든지 환영합니다.
 
 ## 목차
 
@@ -10,7 +10,7 @@
 
 2. [innodb_ruby 빠르게 훑어보기](a-journey-to-the-core/2.a-quick-introduction-to-innodb-ruby.md): `innodb_ruby` 설정 방법 및 기능 데모
 
-3. [Space 파일 레이아웃 기초](): InnoDB가 space 파일 및 그 안의 페이지들을 어떻게 구성하는지 소개
+3. [Space 파일 레이아웃 기초](a-journey-to-the-core/3.the-basics-of-innodb-space-file-layout.md): InnoDB가 space 파일 및 그 안의 페이지들을 어떻게 구성하는지 소개
 
 4. [InnoDB space 파일의 페이지 관리 방법](): Space 파일 내의 파일 segment, extent 및 페이지 관리와 관련된 구조 소개
 
