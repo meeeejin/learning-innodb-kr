@@ -1,8 +1,6 @@
 # On learning InnoDB: A journey to the core 한글 번역 :kr:
 
-이 문서는 [On learning InnoDB: A journey to the core](https://blog.jcole.us/innodb/)를 한글 번역한 문서입니다. 이 문서는 개인적인 학습 및 사용을 목적으로, 원저자([Jeremy Cole](https://blog.jcole.us/))의 허가 하에 번역한 문서입니다.
-
-:pushpin: [제 블로그](https://meeeejin.github.io/)에서도 확인하실 수 있습니다.
+이 문서는 [On learning InnoDB: A journey to the core](https://blog.jcole.us/innodb/)를 한글 번역한 문서입니다. 이 문서는 개인적인 학습 및 사용을 목적으로, 원저자([Jeremy Cole](https://blog.jcole.us/))의 허가 하에 번역한 문서입니다. [제 블로그](https://meeeejin.github.io/)에서도 확인하실 수 있습니다. :smile:
 
 >  본 문서는 개인적인 필요에 의해 번역한 문서로, 원문을 직역 및 의역하다 보니 번역에 문제가 있을 수 있습니다. 본 문서보다 원문을 먼저 보시는 걸 권장합니다. 현재 버전은 draft이기 때문에 끊임없이 수정 중입니다. 번역과 관련한 문제점 및 수정 제안은 언제든지 환영합니다.
 
