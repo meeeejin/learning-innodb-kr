@@ -10,7 +10,7 @@
 
 3. [Space 파일 레이아웃 기초](a-journey-to-the-core/3.the-basics-of-innodb-space-file-layout.md): InnoDB가 space 파일 및 그 안의 페이지들을 어떻게 구성하는지 소개
 
-4. [InnoDB Space 파일의 페이지 관리 방법](): Space 파일 내의 파일 segment, extent 및 페이지 관리와 관련된 구조 소개
+4. [InnoDB Space 파일의 페이지 관리 방법](a-journey-to-the-core/4.page-management-in-innodb-space-files): Space 파일 내의 파일 segment, extent 및 페이지 관리와 관련된 구조 소개
 
 5. [innodb_ruby로 InnoDB의 페이지 관리 방법 직접 확인해보기](): 실제 InnoDB Space 파일의 페이지 관리 데이터 구조를 인터랙티브하게 탐색
 
@@ -42,19 +42,34 @@ These posts are translated into Korean with the original author’s ([Jeremy Col
 
 ## Original posts
 
-- [On learning InnoDB: A journey to the core](https://blog.jcole.us/2013/01/02/on-learning-innodb-a-journey-to-the-core/)
-- [A quick introduction to innodb_ruby](https://blog.jcole.us/2013/01/03/a-quick-introduction-to-innodb-ruby/)
-- [The basics of InnoDB space file layout](https://blog.jcole.us/2013/01/03/the-basics-of-innodb-space-file-layout/)
-- [Page management in InnoDB space files](https://blog.jcole.us/2013/01/04/page-management-in-innodb-space-files/)
-- [Exploring InnoDB page management with innodb_ruby](https://blog.jcole.us/2013/01/05/exploring-innodb-page-management-with-innodb_ruby/)
-- [The physical structure of InnoDB index pages](https://blog.jcole.us/2013/01/07/the-physical-structure-of-innodb-index-pages/)
-- [B+Tree index structures in InnoDB](https://blog.jcole.us/2013/01/10/btree-index-structures-in-innodb/)
-- [The physical structure of records in InnoDB](https://blog.jcole.us/2013/01/10/the-physical-structure-of-records-in-innodb/)
-- [Efficiently traversing InnoDB B+Trees with the page directory](https://blog.jcole.us/2013/01/14/efficiently-traversing-innodb-btrees-with-the-page-directory/)
-- [InnoDB bugs found during research on InnoDB data storage](https://blog.jcole.us/2013/04/09/innodb-bugs-found-during-research-on-innodb-data-storage/)
-- [How does InnoDB behave without a Primary Key?](https://blog.jcole.us/2013/05/02/how-does-innodb-behave-without-a-primary-key/)
-- [InnoDB Tidbit](https://blog.jcole.us/2013/05/05/innodb-tidbit-the-doublewrite-buffer-wastes-32-pages-512-kib/)
-- [The basics of the InnoDB undo logging and history system](https://blog.jcole.us/2014/04/16/the-basics-of-the-innodb-undo-logging-and-history-system/)
-- [A little fun with InnoDB multi-versioning](https://blog.jcole.us/2014/04/16/a-little-fun-with-innodb-multi-versioning/)
-- [InnoDB with reduced page sizes wastes up to 6% of disk space](https://blog.jcole.us/2014/05/14/innodb-with-reduced-page-sizes-wastes-up-to-6-of-disk-space/)
-- [Visualizing the impact of ordered vs. random index insertion in InnoDB](https://blog.jcole.us/2014/10/02/visualizing-the-impact-of-ordered-vs-random-index-insertion-in-innodb/)
+1. [On learning InnoDB: A journey to the core](https://blog.jcole.us/2013/01/02/on-learning-innodb-a-journey-to-the-core/)
+
+2. [A quick introduction to innodb_ruby](https://blog.jcole.us/2013/01/03/a-quick-introduction-to-innodb-ruby/)
+
+3. [The basics of InnoDB space file layout](https://blog.jcole.us/2013/01/03/the-basics-of-innodb-space-file-layout/)
+
+4. [Page management in InnoDB space files](https://blog.jcole.us/2013/01/04/page-management-in-innodb-space-files/)
+
+5. [Exploring InnoDB page management with innodb_ruby](https://blog.jcole.us/2013/01/05/exploring-innodb-page-management-with-innodb_ruby/)
+
+6. [The physical structure of InnoDB index pages](https://blog.jcole.us/2013/01/07/the-physical-structure-of-innodb-index-pages/)
+
+7. [B+Tree index structures in InnoDB](https://blog.jcole.us/2013/01/10/btree-index-structures-in-innodb/)
+
+8. [The physical structure of records in InnoDB](https://blog.jcole.us/2013/01/10/the-physical-structure-of-records-in-innodb/)
+
+9. [Efficiently traversing InnoDB B+Trees with the page directory](https://blog.jcole.us/2013/01/14/efficiently-traversing-innodb-btrees-with-the-page-directory/)
+
+10. [InnoDB bugs found during research on InnoDB data storage](https://blog.jcole.us/2013/04/09/innodb-bugs-found-during-research-on-innodb-data-storage/)
+
+11. [How does InnoDB behave without a Primary Key?](https://blog.jcole.us/2013/05/02/how-does-innodb-behave-without-a-primary-key/)
+
+12. [InnoDB Tidbit](https://blog.jcole.us/2013/05/05/innodb-tidbit-the-doublewrite-buffer-wastes-32-pages-512-kib/)
+
+13. [The basics of the InnoDB undo logging and history system](https://blog.jcole.us/2014/04/16/the-basics-of-the-innodb-undo-logging-and-history-system/)
+
+14. [A little fun with InnoDB multi-versioning](https://blog.jcole.us/2014/04/16/a-little-fun-with-innodb-multi-versioning/)
+
+15. [InnoDB with reduced page sizes wastes up to 6% of disk space](https://blog.jcole.us/2014/05/14/innodb-with-reduced-page-sizes-wastes-up-to-6-of-disk-space/)
+
+16. [Visualizing the impact of ordered vs. random index insertion in InnoDB](https://blog.jcole.us/2014/10/02/visualizing-the-impact-of-ordered-vs-random-index-insertion-in-innodb/)
