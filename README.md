@@ -10,7 +10,7 @@
 
 3. [Space 파일 레이아웃 기초](a-journey-to-the-core/3.the-basics-of-innodb-space-file-layout.md): InnoDB가 space 파일 및 그 안의 페이지들을 어떻게 구성하는지 소개
 
-4. [InnoDB Space 파일의 페이지 관리 방법](a-journey-to-the-core/4.page-management-in-innodb-space-files): Space 파일 내의 파일 segment, extent 및 페이지 관리와 관련된 구조 소개
+4. [InnoDB Space 파일의 페이지 관리 방법](a-journey-to-the-core/4.page-management-in-innodb-space-files.md): Space 파일 내의 파일 segment, extent 및 페이지 관리와 관련된 구조 소개
 
 5. [innodb_ruby로 InnoDB의 페이지 관리 방법 직접 확인해보기](): 실제 InnoDB Space 파일의 페이지 관리 데이터 구조를 인터랙티브하게 탐색
 
