@@ -12,7 +12,7 @@
 
 4. [InnoDB Space 파일의 페이지 관리 방법](a-journey-to-the-core/4.page-management-in-innodb-space-files.md): Space 파일 내의 파일 segment, extent 및 페이지 관리와 관련된 구조 소개
 
-5. [innodb_ruby로 InnoDB의 페이지 관리 방법 직접 확인해보기](): 실제 InnoDB Space 파일의 페이지 관리 데이터 구조를 인터랙티브하게 탐색
+5. [innodb_ruby로 InnoDB의 페이지 관리 방법 직접 확인해보기](a-journey-to-the-core/5.exploring-innodb-page-management-with-innodb_ruby.md): 실제 InnoDB Space 파일의 페이지 관리 데이터 구조를 인터랙티브하게 탐색
 
 6. [InnoDB 인덱스 페이지의 물리적 (physical) 구조](): InnoDB 인덱스 페이지에 대한 설명, 데이터가 저장되는 장소 및 레코드가 저장되는 방법 소개
 
